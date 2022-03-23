@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Domain">
+      <UniqueIdentifier>{f35480e5-356f-483a-bbbd-10e53c4d53d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CrudRepos">
+      <UniqueIdentifier>{dae842e3-c505-42a2-97fe-a5686d7ac62e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CarInMemoryRepository">
+      <UniqueIdentifier>{a5b0a344-589c-4e84-a47a-3004a816bfe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PersonInMemoryRepository">
+      <UniqueIdentifier>{0def6f93-8c62-4f4a-bc70-5fb610f425a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CarController">
+      <UniqueIdentifier>{09f9b790-dab6-4b8a-9042-471cd028ee86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{f18bd91f-c68a-48d8-9225-6f42d6910635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{9aef354d-5591-4f25-a47d-8e7315af0149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PeronController.h">
+      <UniqueIdentifier>{0717713a-799b-4a48-b6c2-e67b4bd5e243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{bec4209e-8dfa-4b90-8393-d110863646ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Car.h">
+      <Filter>Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="CrudRepos.h">
+      <Filter>CrudRepos</Filter>
+    </ClInclude>
+    <ClInclude Include="CarInMemoryRepository.h">
+      <Filter>CarInMemoryRepository</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonInMemoryRepository.h">
+      <Filter>PersonInMemoryRepository</Filter>
+    </ClInclude>
+    <ClInclude Include="CarController.h">
+      <Filter>CarController</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonController.h">
+      <Filter>PeronController.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Car.cpp">
+      <Filter>Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="CarController.cpp">
+      <Filter>CarController</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="CarInMemoryRepository.cpp">
+      <Filter>CarInMemoryRepository</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonInMemoryRepository.cpp">
+      <Filter>PersonInMemoryRepository</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonController.cpp">
+      <Filter>PeronController.h</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
